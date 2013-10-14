@@ -1,9 +1,9 @@
 GSONAndroidSample
 =================
 
-A simple application that uses the GSON to fetch and parse JSON into Java models for Android
+A simple Android application that demonstrates using GSON to fetch and parse JSON into Java models.
 
-For usage instructions please click [here](http://kylewbanks.com/post/show/Tutorial-Android-Parsing-JSON-with-GSON).
+For the corresponing tutorial, please click [here](http://kylewbanks.com/post/show/Tutorial-Android-Parsing-JSON-with-GSON).
 
 
 Update
