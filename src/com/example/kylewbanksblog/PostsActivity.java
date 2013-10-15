@@ -90,8 +90,7 @@ public class PostsActivity extends Activity {
 						GsonBuilder gsonBuilder = new GsonBuilder();
 						gsonBuilder.setDateFormat("M/d/yy hh:mm a");
 						Gson gson = gsonBuilder.create();
-						List<Post> posts = new ArrayList<Post>();
-						posts = Arrays.asList(gson.fromJson(reader, Post[].class));
+						List<Post> posts = Arrays.asList(gson.fromJson(reader, Post[].class));
 						content.close();
 
 						handlePostsList(posts);
