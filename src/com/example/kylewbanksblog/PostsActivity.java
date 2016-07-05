@@ -67,7 +67,7 @@ public class PostsActivity extends Activity {
 	
 	private class PostFetcher extends AsyncTask<Void, Void, String> {
 		private static final String TAG = "PostFetcher";
-		public static final String SERVER_URL = "http://kylewbanks.com/rest/posts";
+		public static final String SERVER_URL = "http://kylewbanks.com/rest/posts.json";
 		
 		@Override
 		protected String doInBackground(Void... params) {
